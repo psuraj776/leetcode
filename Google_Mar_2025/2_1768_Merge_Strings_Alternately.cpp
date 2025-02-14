@@ -1,4 +1,4 @@
-/* Time O(max(n1, n2)) as we are iterating to the max len of wither word1 or word2
+/* Time O(max(n1+n2)) as we are iterating to both the string. it doesnt matter with it is iterating with same index it cant be O(max(n1,n2))
 *  Space O(1) we are not using any extra space other than result string
 *
 */
