@@ -1,3 +1,8 @@
+/*
+Time O(M+N)
+Space O(M+N)
+*/
+
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
